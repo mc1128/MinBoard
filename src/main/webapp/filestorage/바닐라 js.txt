@@ -1,0 +1,61 @@
+node js 12v
+npm
+npx
+git
+
+html/css -> varilla js -> react -> react native
+
+//주석 끝에 ;
+let 값바꿈허용
+const 허용x, 상수
+var 
+
+boolean = true or false
+
+array -> 데이터 저장소 ex) const daysOfWeek = [boolean] -> [true]
+dayOfWeek[2] -> 표현식
+
+띄어쓰기를 스페이스로 표현
+
+object -> const info = { name: "nico", age:33, favMovies:["df","dddf" ], favFood:[{name: "Kimchi", dfd:"dfdf"} ] }
+info.name -> 표현식 
+info.favFood[0].dfd
+info.name = "mico"
+
+//함수설명
+
+function sayHello(name){
+	return ('hello!',name);  -> ('hello! ${name})
+}
+sayHello("mincheol");
+
+const greeting = sayHello("mincheol")
+console.log(greeting)
+
+
+//간단 함수
+const calculator = {	
+	plus: function(a,b)
+		return a = b;
+}
+
+const plus = calculator.plus(5,5)
+
+
+//html java 함수 적용
+
+DOM -> Document Object Module
+
+const title = document.getElementById("title");
+title.innerHTML = "brbr";
+title.style.color = "red";
+document.querySelector("#title",".title") id와 class
+
+// 함수 호출
+
+window.addEventListener("resize", handleResize);
+
+handleResize() -> 바로 호출
+handleResize -> 대기
+
+local storage 에 string만 저장
